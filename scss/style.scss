@@ -1,4 +1,46 @@
-@import "nullstyle.scss";
-
 @import url(//db.onlinewebfonts.com/c/e55e9079ee863276569c8a68d776ef04?family=Futura+Md+BT);
 @import url(//db.onlinewebfonts.com/c/af089c51d74ffa3c6a675fd6024b302b?family=Futura+Hv+BT);
+@import "nullstyle.scss";
+
+$serif: "Futura Hv BT", sans-serif;
+$color: #1f0b30;
+
+
+// * {
+// 	border: 1px solid #666;
+// }
+
+.menu-bar {
+	display: none;
+}
+.menu-bar-icon {
+	width: 30px;
+	margin-right: 10px;
+}
+nav {
+	ul {
+		display: flex;
+	}
+	li {
+		padding-right: 55px;
+		font-size: 16px;
+		font-weight: 900;
+		font-family: $serif;
+		color: $color;
+		white-space: nowrap;
+	}
+}
+
+@mixin btn {
+	background-color: #7b2cbf;
+	border-radius: 8px;
+	padding: 12px 20px;
+	color: #fff;
+	font-size: 16px;
+	font-family: $serif;
+	white-space: nowrap;
+}
+button {
+	@include btn;
+}
+

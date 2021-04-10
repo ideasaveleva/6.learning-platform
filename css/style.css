@@ -24,7 +24,6 @@ a:active {
   outline: none;
 }
 
-nav,
 footer,
 header,
 aside,
@@ -91,4 +90,35 @@ h5,
 h6 {
   font-size: inherit;
   font-weight: 400;
+}
+
+.menu-bar {
+  display: none;
+}
+
+.menu-bar-icon {
+  width: 30px;
+  margin-right: 10px;
+}
+
+nav ul {
+  display: flex;
+}
+nav li {
+  padding-right: 55px;
+  font-size: 16px;
+  font-weight: 900;
+  font-family: "Futura Hv BT", sans-serif;
+  color: #1f0b30;
+  white-space: nowrap;
+}
+
+button {
+  background-color: #7b2cbf;
+  border-radius: 8px;
+  padding: 12px 20px;
+  color: #fff;
+  font-size: 16px;
+  font-family: "Futura Hv BT", sans-serif;
+  white-space: nowrap;
 }
