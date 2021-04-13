@@ -9,12 +9,8 @@
 }
 @media (max-width: 315px) {
     button {
-        width: 100%;
         white-space: normal;
         padding: 5px 10px;
         font-size: 14px;
-    }
-    img {
-	width: 100%;
     }
 }

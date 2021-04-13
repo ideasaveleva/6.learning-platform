@@ -43,4 +43,30 @@ nav {
 button {
 	@include btn;
 }
+article {
+	h1 {
+		font-weight: 900;
+		font-size: 62px;
+		font-family: $serif;
+		color: $color;
+		margin-bottom: 30px;
+	}
+	p {
+		font-family: $serif;
+		font-size: 16px;
+		color: #796D83;
+		margin-bottom: 55px;
+	}
+	form {
+		display: flex;
+		border: 1px solid #D2CED6;
+		border-radius: 10px;
+		input {
+			padding-left: 30px;
+		}
+	}
+	img {
+		width: 100%;
+	}
+}
 

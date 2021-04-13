@@ -122,3 +122,28 @@ button {
   font-family: "Futura Hv BT", sans-serif;
   white-space: nowrap;
 }
+
+article h1 {
+  font-weight: 900;
+  font-size: 62px;
+  font-family: "Futura Hv BT", sans-serif;
+  color: #1f0b30;
+  margin-bottom: 30px;
+}
+article p {
+  font-family: "Futura Hv BT", sans-serif;
+  font-size: 16px;
+  color: #796D83;
+  margin-bottom: 55px;
+}
+article form {
+  display: flex;
+  border: 1px solid #D2CED6;
+  border-radius: 10px;
+}
+article form input {
+  padding-left: 30px;
+}
+article img {
+  width: 100%;
+}
