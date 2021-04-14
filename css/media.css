@@ -6,14 +6,20 @@
     nav {
         display: none;
     }
+    .image-bg-position {
+        margin-bottom: 30px;
+    }
 }
 @media (max-width: 767px) {
-aside {
+    aside {
         text-align: -webkit-center;
     }
-aside span {
-    margin-bottom: 30px;
-}
+    aside span {
+        margin-bottom: 30px;
+    }
+    section .image-bg {
+        height: 100%;
+    }
 }
 @media (max-width: 315px) {
     button {

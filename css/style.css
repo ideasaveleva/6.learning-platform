@@ -73,8 +73,7 @@ a:hover {
   text-decoration: none;
 }
 
-ul,
-li {
+ul {
   list-style: none;
 }
 
@@ -148,13 +147,14 @@ article img {
   width: 100%;
 }
 
-aside h2 {
+aside h2, section h2 {
   font-family: "Futura Hv BT", sans-serif;
   font-weight: 900;
   font-size: 42px;
   color: #1f0b30;
   text-align: center;
 }
+
 aside p {
   color: #796D83;
   font-size: 15px;
@@ -187,4 +187,46 @@ aside span {
   font-size: 15px;
   line-height: 18px;
   margin-top: 10px;
+}
+
+section .image-bg-position {
+  position: relative;
+  z-index: 0;
+}
+section .image-bg {
+  background-color: #7B2CBF;
+  border-radius: 0% 70% 0% 0%;
+  height: 535px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+}
+section img {
+  width: 100%;
+  position: relative;
+  z-index: 2;
+}
+section h2 {
+  margin-bottom: 40px;
+  text-align: left;
+}
+section ol {
+  font-family: "Futura Hv BT", sans-serif;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 38px;
+  color: "Futura Hv BT", sans-serif;
+}
+section li {
+  margin-bottom: 13px;
+}
+section p {
+  color: #796D83;
+  font-family: "Futura Hv BT", sans-serif;
+  font-size: 15px;
+  line-height: 18px;
+  margin-bottom: 30px;
+  max-width: 440px;
 }
