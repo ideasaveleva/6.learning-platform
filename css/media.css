@@ -9,6 +9,9 @@
     .image-bg-position {
         margin-bottom: 30px;
     }
+    main img {
+        margin-top: 30px;
+    }
 }
 @media (max-width: 767px) {
     aside {
