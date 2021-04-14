@@ -147,3 +147,44 @@ article form input {
 article img {
   width: 100%;
 }
+
+aside h2 {
+  font-family: "Futura Hv BT", sans-serif;
+  font-weight: 900;
+  font-size: 42px;
+  color: #1f0b30;
+  text-align: center;
+}
+aside p {
+  color: #796D83;
+  font-size: 15px;
+  font-family: "Futura Hv BT", sans-serif;
+  margin-top: 22px;
+  text-align: center;
+}
+aside .aside-bg {
+  width: 96px;
+  height: 96px;
+  position: relative;
+  margin-right: 30px;
+}
+aside .aside-icon {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 28%;
+  left: 29%;
+}
+aside h3 {
+  font-family: "Futura Hv BT", sans-serif;
+  font-size: 40px;
+  line-height: 48px;
+  font-weight: 900;
+}
+aside span {
+  display: block;
+  color: #796D83;
+  font-size: 15px;
+  line-height: 18px;
+  margin-top: 10px;
+}

@@ -4,6 +4,7 @@
 
 $serif: "Futura Hv BT", sans-serif;
 $color: #1f0b30;
+$color-text:  #796D83;
 
 
 // * {
@@ -54,7 +55,7 @@ article {
 	p {
 		font-family: $serif;
 		font-size: 16px;
-		color: #796D83;
+		color: $color-text;
 		margin-bottom: 55px;
 	}
 	form {
@@ -67,6 +68,48 @@ article {
 	}
 	img {
 		width: 100%;
+	}
+}
+aside {
+	h2 {
+		font-family: $serif;
+		font-weight: 900;
+		font-size: 42px;
+		color: $color;
+		text-align: center;
+	}
+	p {
+		color: $color-text;
+		font-size: 15px;
+		font-family: $serif;
+		margin-top: 22px;
+		text-align: center;
+	}
+	.aside-bg {
+		width: 96px;
+		height: 96px;
+		position: relative;
+		margin-right: 30px;
+	}
+	.aside-icon {
+		width: 40px;
+		height: 40px;
+		position: absolute;
+		top: 28%;
+		left: 29%;
+	}
+	h3 {
+		font-family: $serif;
+		font-size: 40px;
+		line-height: 48px;
+		font-weight: 900;
+	}
+	span {
+		display: block;
+		color: $color-text;
+		font-size: 15px;
+		line-height: 18px;
+		margin-top: 10px;
 	}
 }
 
