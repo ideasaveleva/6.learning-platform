@@ -352,3 +352,25 @@ main img {
   position: relative;
   z-index: 2;
 }
+
+.statistics-block p {
+  color: #1f0b30;
+  font-family: "Futura Hv BT", sans-serif;
+  font-weight: 900;
+  font-size: 17px;
+  line-height: 191%;
+}
+.statistics-block span {
+  display: inline-block;
+  color: #7B2CBF;
+  font-size: 15px;
+  font-family: "Futura Hv BT", sans-serif;
+  margin-top: 25px;
+}
+.statistics-block .statistics-action {
+  vertical-align: inherit;
+  margin-right: 10px;
+}
+.statistics-block .statistics-image {
+  width: 100%;
+}

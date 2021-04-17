@@ -281,3 +281,26 @@ main {
 		z-index: 2;
 	}
 }
+.statistics-block {
+	p {
+		color: $color;
+		font-family: $serif;
+		font-weight: 900;
+		font-size: 17px;
+		line-height: 191%;
+	}
+	span {
+		display: inline-block;
+		color:#7B2CBF;
+		font-size: 15px;
+		font-family: $serif;
+		margin-top: 25px;
+	}
+	.statistics-action {
+		vertical-align: inherit;
+		margin-right: 10px;
+	}
+	.statistics-image {
+		width: 100%;
+	}
+}
