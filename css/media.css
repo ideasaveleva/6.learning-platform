@@ -3,7 +3,7 @@
         display: contents;
         width: 100%;
     }
-    nav {
+    .hide {
         display: none;
     }
     .image-bg-position {
@@ -15,6 +15,12 @@
     .learn-block .frame {
         margin-bottom: 40px;
     }
+    nav li {
+        padding-right: 20px;
+    }
+    footer .footer-link {
+		margin-right: 20px;
+	}
 }
 @media (max-width: 767px) {
     aside {

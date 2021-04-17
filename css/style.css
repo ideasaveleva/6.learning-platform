@@ -374,3 +374,23 @@ main img {
 .statistics-block .statistics-image {
   width: 100%;
 }
+
+footer nav {
+  color: #1f0b30;
+  font-family: "Futura Hv BT", sans-serif;
+  font-size: 16px;
+  width: 100%;
+  padding-top: 20px;
+}
+footer img {
+  display: inline-block;
+}
+footer ul {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+footer .footer-link {
+  margin-right: 35px;
+  margin-top: 20px;
+}
