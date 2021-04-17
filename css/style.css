@@ -147,7 +147,7 @@ article img {
   width: 100%;
 }
 
-aside h2, section h2, main h2 {
+aside h2, section h2, main h2, .learn-block h2 {
   font-family: "Futura Hv BT", sans-serif;
   font-weight: 900;
   font-size: 42px;
@@ -163,6 +163,7 @@ aside p {
   font-family: "Futura Hv BT", sans-serif;
   margin-top: 22px;
   text-align: center;
+  line-height: 28px;
 }
 aside .aside-bg {
   width: 96px;
@@ -251,5 +252,63 @@ main button {
   white-space: nowrap;
 }
 main img {
+  width: 100%;
+}
+
+.learn-block h2 {
+  text-align: center;
+  margin-bottom: 22px;
+}
+.learn-block .description {
+  padding: 37px 35px;
+}
+.learn-block .learn-text {
+  font-family: "Futura Hv BT", sans-serif;
+  color: #796D83;
+  text-align: center;
+  font-size: 15px;
+  line-height: 28px;
+}
+.learn-block h3 {
+  font-size: 24px;
+  color: #1f0b30;
+  font-family: "Futura Hv BT", sans-serif;
+  line-height: 29px;
+  min-height: 60px;
+}
+.learn-block p {
+  color: #796D83;
+  font-size: 14px;
+  line-height: 17px;
+  font-family: "Futura Hv BT", sans-serif;
+  padding-top: 20px;
+  padding-bottom: 45px;
+}
+.learn-block .learn-act {
+  color: #A59DAC;
+  font-size: 14px;
+  font-family: "Futura Hv BT", sans-serif;
+}
+.learn-block .learn-act:hover {
+  color: #7B2CBF;
+}
+.learn-block .act-icon {
+  vertical-align: middle;
+}
+.learn-block .act-icon:hover {
+  color: #7B2CBF;
+}
+.learn-block .frame {
+  background: #FFFFFF;
+  box-shadow: 0px 16px 36px rgba(123, 44, 191, 0.11);
+  border-radius: 20px;
+  max-width: 353px;
+  margin-bottom: 80px;
+  max-height: 512px;
+}
+.learn-block .row {
+  --bs-gutter-x: 0rem;
+}
+.learn-block .learn-image {
   width: 100%;
 }
