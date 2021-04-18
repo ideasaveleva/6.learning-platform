@@ -24,7 +24,6 @@ a:active {
   outline: none;
 }
 
-nav,
 footer,
 header,
 aside,
@@ -74,8 +73,7 @@ a:hover {
   text-decoration: none;
 }
 
-ul,
-li {
+ul {
   list-style: none;
 }
 
@@ -91,4 +89,308 @@ h5,
 h6 {
   font-size: inherit;
   font-weight: 400;
+}
+
+.menu-bar {
+  display: none;
+}
+
+.menu-bar-icon {
+  width: 30px;
+  margin-right: 10px;
+}
+
+nav ul {
+  display: flex;
+}
+nav li {
+  padding-right: 55px;
+  font-size: 16px;
+  font-weight: 900;
+  font-family: "Futura Hv BT", sans-serif;
+  color: #1f0b30;
+  white-space: nowrap;
+}
+
+button {
+  background-color: #7b2cbf;
+  border-radius: 8px;
+  padding: 12px 20px;
+  color: #fff;
+  font-size: 16px;
+  font-family: "Futura Hv BT", sans-serif;
+  white-space: nowrap;
+}
+
+article h1 {
+  font-weight: 900;
+  font-size: 62px;
+  font-family: "Futura Hv BT", sans-serif;
+  color: #1f0b30;
+  margin-bottom: 30px;
+}
+article p {
+  font-family: "Futura Hv BT", sans-serif;
+  font-size: 16px;
+  color: #796D83;
+  margin-bottom: 55px;
+}
+article form {
+  display: flex;
+  border: 1px solid #D2CED6;
+  border-radius: 10px;
+}
+article form input {
+  padding-left: 30px;
+}
+article img {
+  width: 100%;
+}
+
+aside h2, section h2, main h2, .learn-block h2 {
+  font-family: "Futura Hv BT", sans-serif;
+  font-weight: 900;
+  font-size: 42px;
+  color: #1f0b30;
+}
+
+aside h2 {
+  text-align: center;
+}
+aside p {
+  color: #796D83;
+  font-size: 15px;
+  font-family: "Futura Hv BT", sans-serif;
+  margin-top: 22px;
+  text-align: center;
+  line-height: 28px;
+}
+aside .aside-bg {
+  width: 96px;
+  height: 96px;
+  position: relative;
+  margin-right: 30px;
+}
+aside .aside-icon {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 28%;
+  left: 29%;
+}
+aside h3 {
+  font-family: "Futura Hv BT", sans-serif;
+  font-size: 40px;
+  line-height: 48px;
+  font-weight: 900;
+}
+aside span {
+  display: block;
+  color: #796D83;
+  font-size: 15px;
+  line-height: 18px;
+  margin-top: 10px;
+}
+
+section .image-bg-position {
+  position: relative;
+  z-index: 0;
+}
+section .image-bg {
+  background-color: #7B2CBF;
+  border-radius: 0% 70% 0% 0%;
+  height: 535px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+}
+section img {
+  width: 100%;
+  position: relative;
+  z-index: 2;
+}
+section h2 {
+  margin-bottom: 40px;
+}
+section ol {
+  font-family: "Futura Hv BT", sans-serif;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 38px;
+  color: "Futura Hv BT", sans-serif;
+}
+section li {
+  margin-bottom: 13px;
+}
+section p {
+  color: #796D83;
+  font-family: "Futura Hv BT", sans-serif;
+  font-size: 15px;
+  line-height: 18px;
+  margin-bottom: 30px;
+  max-width: 440px;
+}
+
+main p {
+  color: #796D83;
+  font-family: "Futura Hv BT", sans-serif;
+  font-size: 15px;
+  margin-top: 25px;
+  margin-bottom: 45px;
+  max-width: 442px;
+  line-height: 191%;
+}
+main button {
+  background-color: #7b2cbf;
+  border-radius: 8px;
+  padding: 12px 20px;
+  color: #fff;
+  font-size: 16px;
+  font-family: "Futura Hv BT", sans-serif;
+  white-space: nowrap;
+}
+main img {
+  width: 100%;
+}
+
+.learn-block h2 {
+  text-align: center;
+  margin-bottom: 22px;
+}
+.learn-block .description {
+  padding: 37px 35px;
+}
+.learn-block .learn-text {
+  font-family: "Futura Hv BT", sans-serif;
+  color: #796D83;
+  text-align: center;
+  font-size: 15px;
+  line-height: 28px;
+}
+.learn-block h3 {
+  font-size: 24px;
+  color: #1f0b30;
+  font-family: "Futura Hv BT", sans-serif;
+  line-height: 29px;
+  min-height: 60px;
+}
+.learn-block p {
+  color: #796D83;
+  font-size: 14px;
+  line-height: 17px;
+  font-family: "Futura Hv BT", sans-serif;
+  padding-top: 20px;
+  padding-bottom: 45px;
+}
+.learn-block .learn-act {
+  color: #A59DAC;
+  font-size: 14px;
+  font-family: "Futura Hv BT", sans-serif;
+}
+.learn-block .learn-act:hover {
+  color: #7B2CBF;
+}
+.learn-block .act-icon {
+  vertical-align: middle;
+}
+.learn-block .act-icon:hover {
+  color: #7B2CBF;
+}
+.learn-block .frame {
+  background: #FFFFFF;
+  box-shadow: 0px 16px 36px rgba(123, 44, 191, 0.11);
+  border-radius: 20px;
+  max-width: 353px;
+  margin-bottom: 80px;
+  max-height: 512px;
+}
+.learn-block .row {
+  --bs-gutter-x: 0rem;
+}
+.learn-block .learn-image {
+  width: 100%;
+}
+
+.quote-block blockquote {
+  padding-top: 30px;
+  font-family: "Futura Hv BT", sans-serif;
+  font-weight: 900;
+  font-size: 17px;
+  line-height: 191%;
+  color: #1f0b30;
+}
+.quote-block .quote-name {
+  display: block;
+  color: #1f0b30;
+  font-family: "Futura Hv BT", sans-serif;
+  font-size: 15px;
+  line-height: 18px;
+  margin-top: 45px;
+  margin-bottom: 10px;
+}
+.quote-block .quote-rank {
+  display: block;
+  font-family: "Futura Hv BT", sans-serif;
+  color: #796D83;
+  font-size: 15px;
+}
+.quote-block .quote-bg-position {
+  position: relative;
+  z-index: 0;
+}
+.quote-block .quote-bg {
+  position: absolute;
+  z-index: 1;
+  right: 25%;
+  bottom: 0;
+  width: 100%;
+}
+.quote-block .quote-image {
+  width: 100%;
+  position: relative;
+  z-index: 2;
+}
+
+.statistics-block p {
+  color: #1f0b30;
+  font-family: "Futura Hv BT", sans-serif;
+  font-weight: 900;
+  font-size: 17px;
+  line-height: 191%;
+}
+.statistics-block span {
+  display: inline-block;
+  color: #7B2CBF;
+  font-size: 15px;
+  font-family: "Futura Hv BT", sans-serif;
+  margin-top: 25px;
+}
+.statistics-block .statistics-action {
+  vertical-align: inherit;
+  margin-right: 10px;
+}
+.statistics-block .statistics-image {
+  width: 100%;
+}
+
+footer nav {
+  color: #1f0b30;
+  font-family: "Futura Hv BT", sans-serif;
+  font-size: 16px;
+  width: 100%;
+  padding-top: 20px;
+}
+footer img {
+  display: inline-block;
+}
+footer ul {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+footer .footer-link {
+  margin-right: 35px;
+  margin-top: 20px;
 }
