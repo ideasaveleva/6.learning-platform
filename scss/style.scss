@@ -2,9 +2,10 @@
 @import url(//db.onlinewebfonts.com/c/af089c51d74ffa3c6a675fd6024b302b?family=Futura+Hv+BT);
 @import "nullstyle.scss";
 
-$serif: "Futura Hv BT", sans-serif;
+$serif: "Futura Hv BT",
+sans-serif;
 $color: #1f0b30;
-$color-text:  #796D83;
+$color-text: #796D83;
 
 
 // * {
@@ -13,15 +14,19 @@ $color-text:  #796D83;
 
 .menu-bar {
 	display: none;
+	color: #333333;
 }
+
 .menu-bar-icon {
 	width: 30px;
 	margin-right: 10px;
 }
+
 nav {
 	ul {
 		display: flex;
 	}
+
 	li {
 		padding-right: 55px;
 		font-size: 16px;
@@ -41,9 +46,11 @@ nav {
 	font-family: $serif;
 	white-space: nowrap;
 }
+
 button {
 	@include btn;
 }
+
 article {
 	h1 {
 		font-weight: 900;
@@ -52,24 +59,38 @@ article {
 		color: $color;
 		margin-bottom: 30px;
 	}
+
 	p {
 		font-family: $serif;
 		font-size: 16px;
 		color: $color-text;
 		margin-bottom: 55px;
 	}
+
 	form {
 		display: flex;
 		border: 1px solid #D2CED6;
 		border-radius: 10px;
+
 		input {
 			padding-left: 30px;
 		}
 	}
+
 	img {
 		width: 100%;
 	}
+
+	button {
+		width: 60px;
+		height: 50px;
+	}
+
+	.del-img:hover {
+		display: none;
+	}
 }
+
 %title-h2 {
 	font-family: $serif;
 	font-weight: 900;
@@ -82,6 +103,7 @@ aside {
 		@extend %title-h2;
 		text-align: center;
 	}
+
 	p {
 		color: $color-text;
 		font-size: 15px;
@@ -90,25 +112,27 @@ aside {
 		text-align: center;
 		line-height: 28px
 	}
+
 	.aside-bg {
 		width: 96px;
 		height: 96px;
 		position: relative;
 		margin-right: 30px;
 	}
+
 	.aside-icon {
-		width: 40px;
-		height: 40px;
-		position: absolute;
-		top: 28%;
-		left: 29%;
+		width: 95px;
+		height: 95px;
+		border-radius: 50%;
 	}
+
 	h3 {
 		font-family: $serif;
 		font-size: 40px;
 		line-height: 48px;
 		font-weight: 900;
 	}
+
 	span {
 		display: block;
 		color: $color-text;
@@ -117,11 +141,13 @@ aside {
 		margin-top: 10px;
 	}
 }
+
 section {
 	.image-bg-position {
 		position: relative;
 		z-index: 0;
 	}
+
 	.image-bg {
 		background-color: #7B2CBF;
 		border-radius: 0% 70% 0% 0%;
@@ -132,15 +158,18 @@ section {
 		z-index: 1;
 		width: 100%;
 	}
+
 	img {
 		width: 100%;
 		position: relative;
 		z-index: 2;
 	}
+
 	h2 {
 		@extend %title-h2;
 		margin-bottom: 40px;
 	}
+
 	ol {
 		font-family: $serif;
 		font-weight: 900;
@@ -148,9 +177,11 @@ section {
 		line-height: 38px;
 		color: $serif;
 	}
+
 	li {
 		margin-bottom: 13px;
 	}
+
 	p {
 		color: $color-text;
 		font-family: $serif;
@@ -160,10 +191,12 @@ section {
 		max-width: 440px;
 	}
 }
+
 main {
 	h2 {
 		@extend %title-h2;
 	}
+
 	p {
 		color: $color-text;
 		font-family: $serif;
@@ -173,22 +206,27 @@ main {
 		max-width: 442px;
 		line-height: 191%;
 	}
+
 	button {
 		@include btn;
 	}
+
 	img {
 		width: 100%;
 	}
 }
+
 .learn-block {
 	h2 {
 		@extend %title-h2;
 		text-align: center;
 		margin-bottom: 22px;
 	}
+
 	.description {
 		padding: 37px 35px;
 	}
+
 	.learn-text {
 		font-family: $serif;
 		color: $color-text;
@@ -196,6 +234,7 @@ main {
 		font-size: 15px;
 		line-height: 28px;
 	}
+
 	h3 {
 		font-size: 24px;
 		color: $color;
@@ -203,28 +242,34 @@ main {
 		line-height: 29px;
 		min-height: 60px;
 	}
+
 	p {
 		color: $color-text;
 		font-size: 14px;
 		line-height: 17px;
 		font-family: $serif;
-		padding-top: 20px ;
+		padding-top: 20px;
 		padding-bottom: 45px;
 	}
+
 	.learn-act {
 		color: #A59DAC;
 		font-size: 14px;
 		font-family: $serif;
+
 		&:hover {
 			color: #7B2CBF;
 		}
 	}
+
 	.act-icon {
 		vertical-align: middle;
+
 		&:hover {
 			color: #7B2CBF;
 		}
 	}
+
 	.frame {
 		background: #FFFFFF;
 		box-shadow: 0px 16px 36px rgba(123, 44, 191, 0.11);
@@ -233,13 +278,16 @@ main {
 		margin-bottom: 80px;
 		max-height: 512px;
 	}
+
 	.row {
 		--bs-gutter-x: 0rem;
 	}
+
 	.learn-image {
 		width: 100%;
 	}
 }
+
 .quote-block {
 	blockquote {
 		padding-top: 30px;
@@ -249,6 +297,7 @@ main {
 		line-height: 191%;
 		color: $color;
 	}
+
 	.quote-name {
 		display: block;
 		color: $color;
@@ -258,16 +307,19 @@ main {
 		margin-top: 45px;
 		margin-bottom: 10px;
 	}
+
 	.quote-rank {
 		display: block;
 		font-family: $serif;
 		color: $color-text;
 		font-size: 15px;
 	}
+
 	.quote-bg-position {
 		position: relative;
 		z-index: 0;
 	}
+
 	.quote-bg {
 		position: absolute;
 		z-index: 1;
@@ -275,12 +327,14 @@ main {
 		bottom: 0;
 		width: 100%;
 	}
+
 	.quote-image {
 		width: 100%;
 		position: relative;
 		z-index: 2;
 	}
 }
+
 .statistics-block {
 	p {
 		color: $color;
@@ -289,21 +343,25 @@ main {
 		font-size: 17px;
 		line-height: 191%;
 	}
+
 	span {
 		display: inline-block;
-		color:#7B2CBF;
+		color: #7B2CBF;
 		font-size: 15px;
 		font-family: $serif;
 		margin-top: 25px;
 	}
+
 	.statistics-action {
 		vertical-align: inherit;
 		margin-right: 10px;
 	}
+
 	.statistics-image {
 		width: 100%;
 	}
 }
+
 footer {
 	nav {
 		color: $color;
@@ -312,16 +370,69 @@ footer {
 		width: 100%;
 		padding-top: 20px;
 	}
+
 	img {
 		display: inline-block;
 	}
+
 	ul {
 		display: flex;
 		width: 100%;
 		align-items: center;
 	}
+
 	.footer-link {
 		margin-right: 35px;
 		margin-top: 20px;
+	}
+}
+
+
+.menu-block {
+	list-style: none;
+	background: #c99cf1;
+	padding: 10px 0 0 0;
+	position: fixed;
+	top: -150%;
+	height: 100%;
+	transition: all 1s linear 10ms;
+	box-shadow: 10px 0px 15px 1px #666;
+
+	&.active {
+		position: fixed;
+		top: 0;
+		left: 0;
+		z-index: 3;
+		margin: 0;
+		// transform: translate(0px, -20px) rotate(360deg);
+	}
+
+	li {
+		padding: 10px 40px 10px 20px;
+
+		&:hover {
+			background-color: #fff;
+			cursor: pointer;
+		}
+
+		.menu-close {
+			display: block;
+		}
+
+		a {
+			color: #000;
+			font-size: 35px;
+			font-weight: 900;
+			font-family: $serif;
+
+			&:hover {
+				color: #000;
+				font-weight: 500;
+			}
+
+			img {
+				display: block;
+			}
+		}
 	}
 }

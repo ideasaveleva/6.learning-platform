@@ -10,10 +10,32 @@
 	<link rel="stylesheet" href="css/bootstrap-grid.min.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/media.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
 </head>
 
-<body>
+<body id="actionBtn">
+	<div class="menu-block">
+		<ul>
+			<li>
+				<a class="menu-close" href="#">
+					<img width="40px" height="40px" src="img/icon-close.svg" alt="icon close">
+				</a>
+			</li>
+			<li>
+				<a id="home" href="#">Home</a>
+			</li>
+			<li>
+				<a id="about" href="#">About us</a>
+			</li>
+			<li>
+				<a id="courses" href="#">Courses</a>
+			</li>
+			<li>
+				<a id="help" href="#">Help</a>
+			</li>
+		</ul>
+	</div>
 	<header class="container">
 		<div class="row align-items-center justify-content-between flex-nowrap pt-4 pb-4">
 			<div class="col-1 menu-bar">
@@ -41,7 +63,7 @@
 				</ul>
 			</nav>
 			<div class="col d-flex justify-content-end flex-grow-0">
-				<button>Get Started</button>
+				<button id="btn">Get Started</button>
 			</div>
 		</div>
 	</header>
@@ -57,7 +79,9 @@
 				</p>
 				<form class="d-flex justify-content-between" action="#">
 					<input type="text" placeholder="What do you want to learn?">
-					<button><img src="img/search.svg" alt="icon search"></button>
+					<button id="search">
+						<img class="del-img" src="img/search.svg" alt="icon search">
+					</button>
 				</form>
 			</div>
 			<div class="col-lg-5 pt-5">
@@ -78,8 +102,7 @@
 		<div class="row justify-content-between pt-4 pb-3">
 			<div class="col-lg-3 col-md-2 d-lg-flex">
 				<div class="aside-bg">
-					<img src="img/icon1.png" alt="icon background">
-					<img class="aside-icon" src="img/Frame1.png" alt="icon achievement">
+					<img class="aside-icon" src="img/Frame1x.png" alt="icon achievement">
 				</div>
 				<div>
 					<h3>200+</h3>
@@ -88,8 +111,7 @@
 			</div>
 			<div class="col-lg-3 col-md-2 d-lg-flex">
 				<div class="aside-bg">
-					<img src="img/icon2.png" alt="icon background">
-					<img class="aside-icon" src="img/Frame2.png" alt="icon achievement">
+					<img class="aside-icon" src="img/Frame2x.png" alt="icon achievement">
 				</div>
 				<div>
 					<h3>6000+</h3>
@@ -99,8 +121,7 @@
 			</div>
 			<div class="col-lg-3 col-md-2 d-lg-flex">
 				<div class="aside-bg">
-					<img src="img/icon3.png" alt="icon background">
-					<img class="aside-icon" src="img/Frame3.png" alt="icon achievement">
+					<img class="aside-icon" src="img/Frame3x.png" alt="icon achievement">
 				</div>
 				<div>
 					<h3>1200+</h3>
@@ -148,7 +169,7 @@
 					when looking at its
 					layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.
 				</p>
-				<button>Learn More</button>
+				<button id="btn">Learn More</button>
 			</div>
 			<div class="col-lg-6">
 				<img src="img/idea.png" alt="image idea">
@@ -326,6 +347,7 @@
 			</div>
 		</div>
 	</footer>
+	<script src="js/index.js"></script>
 </body>
 
 </html>
