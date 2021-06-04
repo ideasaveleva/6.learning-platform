@@ -18,8 +18,9 @@ $color-text: #796D83;
 }
 
 .menu-bar-icon {
-	width: 30px;
+	width: 40px;
 	margin-right: 10px;
+	margin-left: 15px;
 }
 
 nav {
@@ -116,8 +117,6 @@ aside {
 	.aside-bg {
 		width: 96px;
 		height: 96px;
-		position: relative;
-		margin-right: 30px;
 	}
 
 	.aside-icon {
@@ -129,8 +128,8 @@ aside {
 	h3 {
 		font-family: $serif;
 		font-size: 40px;
-		line-height: 48px;
 		font-weight: 900;
+		margin-top: 10px;
 	}
 
 	span {
